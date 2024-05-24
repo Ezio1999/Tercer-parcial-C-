@@ -1,10 +1,9 @@
-// practica 10
+//Practica 13
 #include <iostream>
 using namespace std;
 int main(){
-    int x;
-    x = 4/0;
-    cout<<x;
+    
+    cout<<"";
 
     return 0;
 }
