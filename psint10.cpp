@@ -3,6 +3,7 @@ using namespace std;
 int main()
 {
     int matriz[2,2];
+    
     matriz[1,1] = 10;
     matriz[1,2] = 20;
     matriz[2,1] = 30;

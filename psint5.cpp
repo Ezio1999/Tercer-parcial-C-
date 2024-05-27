@@ -13,7 +13,7 @@ int main()
         vector[i] = num;
         acum = acum + vector[i];
     }
-    for ( i = -1; i <= t; i++)
+    for (i = -1; i <= t; i++)
     {
         cout << "La suma de: " << vector[i] << endl;
     }
