@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    strand(time(0));
+    srand(time(0));
     int matriz[3][3];
 
     for (int i = 0; i < 3; i++)
