@@ -7,22 +7,16 @@ using namespace std;
 int main()
 {
     int acum = 0, x, cont = 1;
-    do
+    for (int i = 0; i <= 20; i++)
     {
-        cout << "Ingrese un numero " << cont << ": " << endl;
+        if (x > 0)
+        {
+        cout << "Ingrese un numero " << i << ": " << endl;
         cin >> x;
-        if (x  != 0)
-        {
-            acum += x;
-            cont += 1;
+        acum += x;
         }
-        else
-        {
-            x = 0;
-        }
-    } while (x == 0 || cont <= 20);
-
-    cout << "La suma es de: " << acum << endl;
+    }
+    cout << "La suma de los numeros es de: " << acum << endl;
 
     return 0;
 }
